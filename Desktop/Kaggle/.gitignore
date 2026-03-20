@@ -1,0 +1,19 @@
+# Environment / tooling
+.venv/
+.conda_cache/
+.conda_pkgs/
+.jupyter_config/
+
+# Large dataset artifacts (keep for local training only)
+trainparquet.csv
+testparquet.csv
+
+# Generated files
+submission.csv
+
+# OS / editor noise
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
